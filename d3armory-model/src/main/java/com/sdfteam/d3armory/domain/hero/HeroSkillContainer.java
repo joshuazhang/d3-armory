@@ -3,23 +3,18 @@ package com.sdfteam.d3armory.domain.hero;
 import java.util.List;
 
 public class HeroSkillContainer {
-	private List<Skill> active;
-	private List<Skill> passive;
-
-	public List<Skill> getActive() {
+	private List<SkillWithRune> active;
+	private List<SkillWithRune> passive;
+	public List<SkillWithRune> getActive() {
 		return active;
 	}
-
-	public void setActive(List<Skill> active) {
+	public void setActive(List<SkillWithRune> active) {
 		this.active = active;
 	}
-
-	public List<Skill> getPassive() {
+	public List<SkillWithRune> getPassive() {
 		return passive;
 	}
-
-	public void setPassive(List<Skill> passive) {
+	public void setPassive(List<SkillWithRune> passive) {
 		this.passive = passive;
 	}
-
 }

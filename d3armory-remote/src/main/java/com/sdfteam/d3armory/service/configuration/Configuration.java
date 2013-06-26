@@ -14,6 +14,9 @@ public class Configuration extends LinkedHashMap<String, Object> {
 	public static final String BATTLETAG_NAME_TAG = "<battletag-name>";
 	public static final String HOST_TAG = "<host>";
 	public static final String HERO_ID = "<hero-id>";
+	
+	//for equip
+	public static final String ITEM_DATA = "<item-data>";
 
 	/**
 	 * Clones the mappings of the underlying map. This is not a deep copy.
@@ -61,6 +64,14 @@ public class Configuration extends LinkedHashMap<String, Object> {
 
 	public Long getHeroId() {
 		return (Long) get(HERO_ID);
+	}
+	
+	public void setItemData(String itemData) {
+		put(ITEM_DATA, itemData);
+	}
+	
+	public String getItemData() {
+		return (String) get(ITEM_DATA);
 	}
 
 	/**

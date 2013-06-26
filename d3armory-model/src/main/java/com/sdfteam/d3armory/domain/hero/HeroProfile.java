@@ -25,6 +25,15 @@ public class HeroProfile extends RemoteEntity {
 	private Progression progress;
 	private HeroSkillContainer skills;
 	private Stats stats;
+	private Number paragonLevel;
+
+	public Number getParagonLevel() {
+		return paragonLevel;
+	}
+
+	public void setParagonLevel(Number paragonLevel) {
+		this.paragonLevel = paragonLevel;
+	}
 
 	public String getClazz() {
 		return clazz;

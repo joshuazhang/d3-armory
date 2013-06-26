@@ -17,6 +17,123 @@ public class Stats {
 	private Number poisonResist;
 	private Number strength;
 	private Number vitality;
+	private Number critDamage;
+	private Number blockChance;
+	private Number blockAmountMin;
+	private Number blockAmountMax;
+	private Number thorns;
+	private Number lifeSteal;
+	private Number lifePerKill;
+	private Number goldFind;
+	private Number magicFind;
+	private Number primaryResource;
+	private Number secondaryResource;
+	private Number lifeOnHit;
+	private Number attackSpeed;
+
+	public Number getCritDamage() {
+		return critDamage;
+	}
+
+	public void setCritDamage(Number critDamage) {
+		this.critDamage = critDamage;
+	}
+
+	public Number getBlockChance() {
+		return blockChance;
+	}
+
+	public void setBlockChance(Number blockChance) {
+		this.blockChance = blockChance;
+	}
+
+	public Number getBlockAmountMin() {
+		return blockAmountMin;
+	}
+
+	public void setBlockAmountMin(Number blockAmountMin) {
+		this.blockAmountMin = blockAmountMin;
+	}
+
+	public Number getBlockAmountMax() {
+		return blockAmountMax;
+	}
+
+	public void setBlockAmountMax(Number blockAmountMax) {
+		this.blockAmountMax = blockAmountMax;
+	}
+
+	public Number getThorns() {
+		return thorns;
+	}
+
+	public void setThorns(Number thorns) {
+		this.thorns = thorns;
+	}
+
+	public Number getLifeSteal() {
+		return lifeSteal;
+	}
+
+	public void setLifeSteal(Number lifeSteal) {
+		this.lifeSteal = lifeSteal;
+	}
+
+	public Number getLifePerKill() {
+		return lifePerKill;
+	}
+
+	public void setLifePerKill(Number lifePerKill) {
+		this.lifePerKill = lifePerKill;
+	}
+
+	public Number getGoldFind() {
+		return goldFind;
+	}
+
+	public void setGoldFind(Number goldFind) {
+		this.goldFind = goldFind;
+	}
+
+	public Number getMagicFind() {
+		return magicFind;
+	}
+
+	public void setMagicFind(Number magicFind) {
+		this.magicFind = magicFind;
+	}
+
+	public Number getPrimaryResource() {
+		return primaryResource;
+	}
+
+	public void setPrimaryResource(Number primaryResource) {
+		this.primaryResource = primaryResource;
+	}
+
+	public Number getSecondaryResource() {
+		return secondaryResource;
+	}
+
+	public void setSecondaryResource(Number secondaryResource) {
+		this.secondaryResource = secondaryResource;
+	}
+
+	public Number getLifeOnHit() {
+		return lifeOnHit;
+	}
+
+	public void setLifeOnHit(Number lifeOnHit) {
+		this.lifeOnHit = lifeOnHit;
+	}
+
+	public Number getAttackSpeed() {
+		return attackSpeed;
+	}
+
+	public void setAttackSpeed(Number attackSpeed) {
+		this.attackSpeed = attackSpeed;
+	}
 
 	public Number getArcaneResist() {
 		return this.arcaneResist;
